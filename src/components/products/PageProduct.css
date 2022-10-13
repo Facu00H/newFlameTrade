@@ -8,8 +8,12 @@
 }
 
 .CardContainer{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: 12px;
+    border-radius: 0.5rem;
+    padding: 5%;
 }
 
 .link{
@@ -42,6 +46,39 @@
 
 .btn:active {
     transform: translateY(-1px);
+}
+
+.productoContenedor {
+    width: 290px;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.productoContenedor:hover {
+    scale: 1.05;
+    
+}
+.productoTop {
+    height: 80%;
+}
+#img-prdct {
+    width: 100%;
+}
+.productoBot {
+    height: 20%;
+    background-color: rgb(136, 196, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+.productoNombre {
+    width: 50%;
+    font-weight: 400;
+}
+.productoPrecio {
+    font-weight: 500;
 }
 
 
