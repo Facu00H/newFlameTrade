@@ -13,8 +13,8 @@ export default function NavBar() {
       <div className="brand">
         <div className="brand-img">
         </div>
-        <div className="brand-name">
-          <h1>Surface</h1>
+        <div>
+          <img className="brand-name" src="LogoText.png" alt="" />
         </div>
       </div>
       <div className="user">
